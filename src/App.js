@@ -52,7 +52,7 @@ function App() {
   }
 
   return (
-    <>
+    <div class="box">
       <h1>Convert</h1>
       <CurrencyRow
         currencyOptions={currencyOptions}
@@ -69,7 +69,8 @@ function App() {
         onChangeAmount={handleToAmountChange}
         amount={toAmount}
       />
-    </>
+      <div class="findMe"><a href="https://github.com/oKrolik" target="_blank">oKrolik</a></div>
+    </div>
   );
 }
 
