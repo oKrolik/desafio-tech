@@ -53,7 +53,7 @@ function App() {
 
   return (
     <div class="box">
-      <h1>Convert</h1>
+      <h1>Exchanger</h1>
       <CurrencyRow
         currencyOptions={currencyOptions}
         selectedCurrency={fromCurrency}
