@@ -69,7 +69,7 @@ function App() {
         onChangeAmount={handleToAmountChange}
         amount={toAmount}
       />
-      <div class="findMe"><a href="https://github.com/oKrolik" target="_blank">oKrolik</a></div>
+      <div class="findMe"><a href="https://github.com/oKrolik" target="_blank" rel="noreferrer">oKrolik</a></div>
     </div>
   );
 }
