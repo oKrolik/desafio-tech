@@ -16,7 +16,7 @@ You may also see any lint errors in the console.
 <h2># API:</h2>
 
 <ul>
-  <li><a href="https://exchangeratesapi.io/">Exchangeratesapi.io</a></li>
+  <li><a href="https://exchangeratesapi.io/">Exchange rates api</a></li>
 </ul>
 
 <h2># Preview</h2>
