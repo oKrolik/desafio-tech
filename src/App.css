@@ -5,7 +5,9 @@ body {
     align-items     : center;
     min-height      : 100vh;
     text-align      : center;
-    background-image: url("./img/background.jpg");
+    /* background-image: url("./img/background.jpg"); */
+    background-image:url('./img/myImage.gif'); 
+    background-repeat:repeat;
 }
 
 .box {
