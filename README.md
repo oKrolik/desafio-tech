@@ -21,5 +21,4 @@ You may also see any lint errors in the console.
 
 <h2># Preview</h2>
 
-![convert](https://user-images.githubusercontent.com/93000522/153523508-2898d715-0a99-4fa5-9847-b53ea294fff8.png)
-
+![convert](https://user-images.githubusercontent.com/93000522/153593650-85c96e19-c03b-4c4c-b60c-c1081b71938f.png)
