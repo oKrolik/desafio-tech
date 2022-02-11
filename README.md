@@ -16,9 +16,10 @@ You may also see any lint errors in the console.
 <h2># API:</h2>
 
 <ul>
-  <li><a href="https://exchangeratesapi.io/">Exchangeratesapi.io</a></li>
+  <li><a href="https://exchangeratesapi.io/">Exchange Rates Api</a></li>
 </ul>
 
 <h2># Preview</h2>
 
-![convert](https://user-images.githubusercontent.com/93000522/153433835-b4c0e556-f522-4687-9def-d0f06e9babbc.png)
+![convert](https://user-images.githubusercontent.com/93000522/153447122-34e80586-f861-456e-8a6e-18f0f2414842.png)
+
