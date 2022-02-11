@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import CurrencyRow from './CurrencyRow'
 
-const BASE_URL = 'http://api.exchangeratesapi.io/v1/latest?access_key=b5a3385ea2855c54807aa02466bcef52'
+const BASE_URL = 'http://api.exchangeratesapi.io/v1/latest?access_key=b5a3385ea2855c54807aa02466bcef52&symbols=AED,AFN,AUD,BBD,BDT,BGN,BRL,CAD,CZK,EGP,JPY,RUB,USD'
+const username = 'oKrolik'
 
 function App() {
   const [currencyOptions, setCurrencyOptions] = useState([])
@@ -54,6 +55,8 @@ function App() {
   return (
     <div class="box">
       <h1>Exchanger</h1>
+      <h2>Your Currency</h2>
+      <h3>Converter</h3>
       <CurrencyRow
         currencyOptions={currencyOptions}
         selectedCurrency={fromCurrency}
@@ -69,7 +72,13 @@ function App() {
         onChangeAmount={handleToAmountChange}
         amount={toAmount}
       />
-      <div class="findMe"><a href="https://github.com/oKrolik" target="_blank" rel="noreferrer">oKrolik</a></div>
+      <div class="flag">
+        <div class="left"><img src={fromCurrency != null ? require(`./img/${fromCurrency}.png`) : require(`./img/EUR.png`)} width={30} height={20} align="left"/></div>
+        <div class="right"><img src={toCurrency != null ? require(`./img/${toCurrency}.png`) : require(`./img/AED.png`)} width={30} height={20} align="right"/></div>
+        {/* <div class="left"><img src={fromCurrency == null ? require(`./img/EUR.png`) : require(`./img/${fromCurrency}.png`)} width={30} height={20} align="left" /></div> */}
+        {/* <div class="right"><img src={toCurrency == null ? require(`./img/BRL.jpg`) : require(`./img/${toCurrency}.jpg`)} width={30} height={20} align="right" /></div> */}
+      </div>
+      <div class="findMe"><a href={`https://github.com/${username}`} target="_blank" rel="noreferrer">oKrolik</a></div>
     </div>
   );
 }

@@ -1,11 +1,11 @@
 body {
-    margin             : 0;
-    display            : flex;
-    justify-content    : center;
-    align-items        : center;
-    min-height         : 100vh;
-    text-align         : center;
-    background-image: url("/img/background.jpg");
+    margin          : 0;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    min-height      : 100vh;
+    text-align      : center;
+    background-image: url("./img/background.jpg");
 }
 
 .box {
@@ -13,25 +13,25 @@ body {
     min-width       : 30vh;
     border-radius   : 10px;
     border          : 1px solid #333;
-    background-color: rgba(109, 109, 109,0.8);
-    /* opacity: 70%; */
-    padding: auto;
+    background-color: rgba(109, 109, 109, 0.8);
+    /* opacity      : 70%; */
+    padding         : auto;
 }
 
 h1 {
     margin          : 0;
     margin-bottom   : .5rem;
     min-width       : 30vh;
-    margin-top: -1px;
-    padding-bottom: 2%;
-    background-color: rgba(144, 151, 149,0.4);
+    margin-top      : -1px;
+    padding-bottom  : 2%;
+    background-color: rgba(144, 151, 149, 0.4);
     border          : 1px solid #333;
     border-radius   : 10px;
-    /* opacity: 80%; */
+    /* opacity      : 80%; */
 }
 
 .input {
-    margin-top: 40px;
+    margin-top   : 35px;
     border       : 1px solid #333;
     border-radius: 4px;
     padding      : .25rem;
@@ -45,21 +45,61 @@ select {
 }
 
 .equals {
-    font-weight: bold;
-    font-size  : 2rem;
+    font-weight  : bold;
+    font-size    : 2rem;
     margin-bottom: -40px;
 }
 
 .findMe {
-    background-color: rgba(144, 151, 149,0.8);
+    background-color: rgba(144, 151, 149, 0.8);
     border          : 1px solid #333;
     border-radius   : 100px;
-    width: 100px;
-    margin-left: 40px;
-    margin-top: 30px;
+    width           : 40%;
+    align-content   : center;
+    padding         : 1px;
+    margin          : auto auto 10px auto;
+    margin-top      : 30px;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color          : black;
+}
+
+.flag {
+    margin-top: 20px;
+}
+
+.left {
+    position     : relative;
+    align-content: left;
+    /* margin-left  : 13px; */
+}
+
+.right {
+    position     : relative;
+    align-content: right;
+    /* margin-left  : 140px; */
+}
+
+img {
+    border: 2px solid #555;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    margin-bottom: -10px;
+}
+
+h3 {
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+    font-size: large;
+    margin-bottom: -20px;
 }
